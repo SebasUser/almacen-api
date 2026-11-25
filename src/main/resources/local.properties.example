@@ -1,0 +1,11 @@
+# Copia este archivo como local.properties y completa los valores (local.properties no se sube a GitHub).
+# En la nube estas mismas claves se configuran como variables de entorno.
+DB_URL=jdbc:mysql://localhost:3306/almacen_sistema?useSSL=false&serverTimezone=America/Lima&allowPublicKeyRetrieval=true
+DB_USER=root
+DB_PASSWORD=
+# Mínimo 32 caracteres, aleatoria
+JWT_SECRET=
+# Solo se usa para crear al administrador la primera vez (cuando no hay usuarios)
+ADMIN_PASSWORD=
+CORS_ORIGINS=http://localhost:4200
+SHOW_SQL=true
